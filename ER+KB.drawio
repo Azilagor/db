@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
   <diagram name="Страница-1" id="2Q2ZILZpiB97s95rUoiT">
-    <mxGraphModel dx="4305" dy="3575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5868" dy="4400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,7 +112,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FEb5cYBoyObJYPQe1WsG-115" parent="FEb5cYBoyObJYPQe1WsG-113" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Название&amp;nbsp; enum" vertex="1">
+        <mxCell id="FEb5cYBoyObJYPQe1WsG-115" parent="FEb5cYBoyObJYPQe1WsG-113" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Название&amp;nbsp; string" vertex="1">
           <mxGeometry height="30" width="150" x="30" as="geometry">
             <mxRectangle height="30" width="150" as="alternateBounds" />
           </mxGeometry>
@@ -212,7 +212,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AYASXDp3vjAP7q1CW81X-33" parent="AYASXDp3vjAP7q1CW81X-31" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Название&amp;nbsp; enum" vertex="1">
+        <mxCell id="AYASXDp3vjAP7q1CW81X-33" parent="AYASXDp3vjAP7q1CW81X-31" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="Название&amp;nbsp; string" vertex="1">
           <mxGeometry height="30" width="150" x="30" as="geometry">
             <mxRectangle height="30" width="150" as="alternateBounds" />
           </mxGeometry>
@@ -579,8 +579,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OI3Vb4fTiRy5lkMpIn_K-45" edge="1" parent="1" source="BFKzsb6DBWWEJAzUJXRb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.523;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=oval;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+        <mxCell id="OI3Vb4fTiRy5lkMpIn_K-45" edge="1" parent="1" source="BFKzsb6DBWWEJAzUJXRb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=1.148;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;startArrow=oval;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="bY2VAr274Mvhbsl2Evca-5">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-140" y="-45" />
+              <mxPoint x="-140" y="-175" />
+              <mxPoint x="-80" y="-175" />
+              <mxPoint x="-80" y="-286" />
+            </Array>
             <mxPoint x="-270" y="-130" as="sourcePoint" />
             <mxPoint x="-50.86000000000013" y="-229.94000000000005" as="targetPoint" />
           </mxGeometry>
@@ -849,7 +855,7 @@
             <mxRectangle height="30" width="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BFKzsb6DBWWEJAzUJXRb-41" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" value="Выдача инвентаря" vertex="1">
+        <mxCell id="BFKzsb6DBWWEJAzUJXRb-41" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;rounded=1;" value="Выдача инвентаря" vertex="1">
           <mxGeometry height="80" width="180" x="-530" y="-590" as="geometry" />
         </mxCell>
         <mxCell id="BFKzsb6DBWWEJAzUJXRb-42" parent="BFKzsb6DBWWEJAzUJXRb-41" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" value="" vertex="1">
